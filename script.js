@@ -29,6 +29,8 @@ function resetAll() {
     resultEl.textContent = '—';
     msgEl.textContent = '';
     btn.disabled = false;
+    minInput.value = ""
+    maxInput.value = ""
     updateInfo();
 }
 
